@@ -1,3 +1,10 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Настройка текста(шрифт) */
+
 span {
     font-style: italic;
 }
@@ -11,6 +18,8 @@ span {
     font-size: x-large;
 }
 
+/* Настройка таблицы */
+
 ul {
     list-style: none;
 }
@@ -19,13 +28,14 @@ ul {
     list-style: disc;
 }
 
+/* Настройка панелей истории и тайтлов */
+
 .list-conteiner {
     text-align: left;
     display: inline-block;
     border-style: solid; 
     border-width: 0.5px;
     padding-right: 20px;
-    float: left;
     background-color: aqua;
     margin-right: 20px;
     height: 1500px;
@@ -41,33 +51,52 @@ ul {
     font-size: x-large;
 }
 
-.text-1 {
-    background-color: rgb(211, 51, 51);
-}
+/* Настройка расположения элементов на странице */
 
-.text2 {
 
-}
 
 .list-conteiner2 {
-    text-align: right;
     display: flex;
-    justify-content: ;
-    flex-direction: column;
-    background-color: blueviolet;
+    float: right;
+    background-color: brown;
     text-align: center;
-    margin-right: 225px;
-    margin-left: 10px;
+    flex-direction: column;
 }
 
-.list-conteiner3 {
-   max-width: 120px;
+.list-conteiner2>div {
+    border-style: solid;
+    border-width: 0.5px;
 }
 
-.text-font {
-    font-weight: bold;
+.img1 {
+    max-width: 125px;
+    padding-top: 10px;
 }
 
-div>div>p {
-    font-size: small;
+/* Верхняя нав. панель */
+
+.nav-conteiner {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.nav-conteiner>nav>ul {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-conteiner>nav>ul>li {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+@media (max-width: 900px) {
+    .nav-conteiner {
+        flex-direction: column;
+    }
 }

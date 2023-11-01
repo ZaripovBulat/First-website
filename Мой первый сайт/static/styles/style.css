@@ -3,6 +3,11 @@ body {
     padding: 0px;
 }
 
+.p {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Настройка текста(шрифт) */
 
 span {
@@ -17,6 +22,7 @@ span {
     font-style: unset;
     font-size: x-large;
 }
+
 
 /* Настройка таблицы */
 
@@ -35,10 +41,8 @@ ul {
     display: inline-block;
     border-style: solid; 
     border-width: 0.5px;
+    background-color: rgb(28, 220, 34);
     padding-right: 20px;
-    background-color: aqua;
-    margin-right: 20px;
-    height: 1500px;
 }
 
 .list-conteiner>p {
@@ -72,6 +76,8 @@ ul {
     max-width: 125px;
     padding-top: 10px;
 }
+
+
 
 /* Верхняя нав. панель */
 

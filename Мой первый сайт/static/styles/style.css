@@ -45,13 +45,7 @@ ul {
     padding-right: 20px;
 }
 
-.list-conteiner>p {
-    text-align: center;
-    font-weight: bold;
-}
-
 .title {
-    text-align: center;
     font-size: x-large;
 }
 
@@ -77,6 +71,9 @@ ul {
     padding-top: 10px;
 }
 
+.padding-text {
+    padding-left: 20px;
+}
 
 
 /* Верхняя нав. панель */
@@ -105,4 +102,37 @@ ul {
     .nav-conteiner {
         flex-direction: column;
     }
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header {
+width: 23%;
+background-color: aquamarine;
+}
+
+.section {
+width: 73%;
+}
+
+.header>ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.border-style {
+    border-bottom-style: solid;
+    border-width: 0.25px;
+}
+
+.header>div {
+    width: 100%;
+}
+
+.header>div>img {
+    width: 100%;
 }
